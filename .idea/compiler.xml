@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="TestHilt.app" target="1.8" />
+      <module name="TestHilt.buildSrc" target="1.8" />
       <module name="TestHilt.detail" target="1.8" />
       <module name="TestHilt.home" target="1.8" />
       <module name="TestHilt.homedemo" target="1.8" />

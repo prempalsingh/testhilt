@@ -1,6 +1,6 @@
 plugins {
-    id 'java-library'
-    id 'kotlin'
+    id("java-library")
+    id("kotlin")
 }
 
 java {
@@ -9,8 +9,8 @@ java {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:${deps.versions.kotlin}")
 
     // https://mvnrepository.com/artifact/javax.inject/javax.inject
-    implementation group: 'javax.inject', name: 'javax.inject', version: '1'
+    implementation("javax.inject:javax.inject:1")
 }
